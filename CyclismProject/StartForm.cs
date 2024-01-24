@@ -19,9 +19,17 @@ namespace CyclismProject
 
         private void presentationButton_Click(object sender, EventArgs e)
         {
-            Q0Form Menu = new Q0Form();
-            Menu.Show();
+            Q0Form Q0Form = new Q0Form();
+            Q0Form.Show();
             this.Hide();
+            Q0Form.StartPosition = FormStartPosition.Manual;
+            Q0Form.Location = new Point(10, 10);
+            Q0Form.Show();
+        }
+
+        private void gameButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

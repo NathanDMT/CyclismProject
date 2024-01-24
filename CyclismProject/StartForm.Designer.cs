@@ -38,7 +38,7 @@
             this.presentationButton.BackColor = System.Drawing.SystemColors.Info;
             this.presentationButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.presentationButton.ForeColor = System.Drawing.Color.OrangeRed;
-            this.presentationButton.Location = new System.Drawing.Point(134, 202);
+            this.presentationButton.Location = new System.Drawing.Point(40, 109);
             this.presentationButton.Name = "presentationButton";
             this.presentationButton.Size = new System.Drawing.Size(132, 32);
             this.presentationButton.TabIndex = 7;
@@ -51,19 +51,20 @@
             this.gameButton.BackColor = System.Drawing.SystemColors.Info;
             this.gameButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gameButton.ForeColor = System.Drawing.Color.OrangeRed;
-            this.gameButton.Location = new System.Drawing.Point(339, 202);
+            this.gameButton.Location = new System.Drawing.Point(178, 109);
             this.gameButton.Name = "gameButton";
             this.gameButton.Size = new System.Drawing.Size(121, 32);
             this.gameButton.TabIndex = 8;
             this.gameButton.Text = "Jeu";
             this.gameButton.UseVisualStyleBackColor = false;
+            this.gameButton.Click += new System.EventHandler(this.gameButton_Click);
             // 
             // quitButton
             // 
             this.quitButton.BackColor = System.Drawing.SystemColors.Info;
             this.quitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quitButton.ForeColor = System.Drawing.Color.OrangeRed;
-            this.quitButton.Location = new System.Drawing.Point(530, 202);
+            this.quitButton.Location = new System.Drawing.Point(305, 109);
             this.quitButton.Name = "quitButton";
             this.quitButton.Size = new System.Drawing.Size(121, 32);
             this.quitButton.TabIndex = 9;
@@ -75,10 +76,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(484, 261);
             this.Controls.Add(this.quitButton);
             this.Controls.Add(this.gameButton);
             this.Controls.Add(this.presentationButton);
+            this.Location = new System.Drawing.Point(10, 10);
             this.Name = "StartForm";
             this.Text = "StartForm";
             this.ResumeLayout(false);

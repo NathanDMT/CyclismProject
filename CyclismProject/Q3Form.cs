@@ -16,5 +16,10 @@ namespace CyclismProject
         {
             InitializeComponent();
         }
+
+        private void q3_nextButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

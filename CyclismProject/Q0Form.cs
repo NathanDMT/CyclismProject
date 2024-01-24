@@ -17,9 +17,30 @@ namespace CyclismProject
             InitializeComponent();
         }
 
-        private void Background_Click(object sender, EventArgs e)
+        private async void nextButton_Click(object sender, EventArgs e)
         {
+            if (q0_question.Visible == false)
+            {
+                q0_nextButton.Text = "Réponse";
+                q0_question.Visible = true;
+                return;
+            }
 
+            if ((q0_question.Visible == true) && (q0_answer.Visible == false))
+            {
+                q0_nextButton.Text = "Suivant";
+                q0_answer.Visible = true;
+                return;
+            }
+
+            if ((q0_question.Visible == true) && (q0_answer.Visible == true))
+            {
+                Q1Form Q1Form = new Q1Form();
+                this.Hide();
+                Q1Form.StartPosition = FormStartPosition.Manual;
+                Q1Form.Location = new Point(10,10);
+                Q1Form.Show();
+            }
         }
     }
 }

@@ -21,5 +21,23 @@ namespace CyclismProject
         {
 
         }
+
+        private async void q1_nextButton_Click(object sender, EventArgs e)
+        {
+            if (q1_answer1.Visible == false)
+            {
+                q1_answer1.Visible = true;
+                return;
+            }
+
+            if ((q1_answer1.Visible == true) && (q1_signLeave.Visible == true))
+            {
+                Q2Form Q2Form = new Q2Form();
+                this.Hide();
+                Q2Form.StartPosition = FormStartPosition.Manual;
+                Q2Form.Location = new Point(10, 10);
+                Q2Form.Show();
+            }
+        }
     }
 }
