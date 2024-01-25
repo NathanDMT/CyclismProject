@@ -15,6 +15,15 @@ namespace CyclismProject
         public StartForm()
         {
             InitializeComponent();
+            this.FormClosing += Form2_FormClosing;
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
 
         private void presentationButton_Click(object sender, EventArgs e)

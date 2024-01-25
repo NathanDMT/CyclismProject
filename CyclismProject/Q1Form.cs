@@ -10,11 +10,28 @@ using System.Windows.Forms;
 
 namespace CyclismProject
 {
-    public partial class Q1Form : Form
+    public partial class Q1Form : Q0Form
     {
+        public static new string GlobalVar
+        {
+            get { return _q1Score.ToString(); }
+            set { _q1Score = int.Parse(value); }
+        }
+
         public Q1Form()
         {
             InitializeComponent();
+            _q1Score = _q0Score;
+            q1_labelScore.Text = "Score : " + _q1Score;
+            this.FormClosing += Form2_FormClosing;
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                Application.Exit();
+            }
         }
 
         private void backButton_Click(object sender, EventArgs e)

@@ -10,8 +10,14 @@ using System.Windows.Forms;
 
 namespace CyclismProject
 {
-    public partial class Q2Form : Form
+    public partial class Q2Form : Q1Form
     {
+        public static new string GlobalVar
+        {
+            get { return _q2Score.ToString(); }
+            set { _q2Score = int.Parse(value); }
+        }
+
         public Q2Form()
         {
             InitializeComponent();
@@ -30,15 +36,14 @@ namespace CyclismProject
                 return;
             }
 
-            if ((q2_answer1.Visible == true) && (q2_answer2.Visible == false))
+            if ((q2_answer1.Visible == true))
             {
                 q2_nextButton.Text = "Suivant";
-                q2_answer2.Visible = true;
                 q2_signLeave.Visible = true;
                 return;
             }
 
-            if ((q2_answer1.Visible == true) && (q2_answer2.Visible == true) && (q2_signLeave.Visible == true))
+            if ((q2_answer1.Visible == true) && (q2_signLeave.Visible == true))
             {
                 Q2Form Q2Form = new Q2Form();
                 this.Hide();

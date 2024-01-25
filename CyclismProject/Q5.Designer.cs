@@ -37,9 +37,9 @@
             this.nextButton.BackColor = System.Drawing.SystemColors.Info;
             this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nextButton.ForeColor = System.Drawing.Color.OrangeRed;
-            this.nextButton.Location = new System.Drawing.Point(869, 517);
+            this.nextButton.Location = new System.Drawing.Point(972, 597);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(121, 32);
+            this.nextButton.Size = new System.Drawing.Size(200, 32);
             this.nextButton.TabIndex = 6;
             this.nextButton.Text = "Suivant";
             this.nextButton.UseVisualStyleBackColor = false;
@@ -49,18 +49,18 @@
             this.button1.BackColor = System.Drawing.SystemColors.Info;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.button1.Location = new System.Drawing.Point(12, 517);
+            this.button1.Location = new System.Drawing.Point(12, 597);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 32);
+            this.button1.Size = new System.Drawing.Size(200, 32);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Recommencer";
+            this.button1.Text = "Question précedente";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // Q5Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 561);
+            this.ClientSize = new System.Drawing.Size(1184, 641);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.nextButton);
             this.Name = "Q5Form";

@@ -52,6 +52,8 @@
     <Compile Include="EndForm.Designer.cs">
       <DependentUpon>EndForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entity\GlobalVariables.cs" />
+    <Compile Include="Manager\GlobalVariablesManager.cs" />
     <Compile Include="Q1Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,7 +126,7 @@
     <EmbeddedResource Include="Q4Form.resx">
       <DependentUpon>Q4Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Q5.resx">
+    <EmbeddedResource Include="Q5Form.resx">
       <DependentUpon>Q5Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StartForm.resx">
@@ -146,5 +148,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
