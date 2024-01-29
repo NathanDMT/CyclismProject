@@ -33,9 +33,8 @@
             this.q0_question = new System.Windows.Forms.Label();
             this.q0_nextButton = new System.Windows.Forms.Button();
             this.q0_answerLabel = new System.Windows.Forms.Label();
-            this.q0_grpBoxQuestion = new System.Windows.Forms.GroupBox();
+            this.q0_groupBoxQuestionnaire = new System.Windows.Forms.GroupBox();
             this.q0_labelScore = new System.Windows.Forms.Label();
-            this.q0_answerResponse = new System.Windows.Forms.Label();
             this.q0_confirmAnswerButton = new System.Windows.Forms.Button();
             this.q0_checkBoxReflector = new System.Windows.Forms.CheckBox();
             this.q0_checkBoxFood = new System.Windows.Forms.CheckBox();
@@ -48,7 +47,7 @@
             this.q0_checkBoxGloves = new System.Windows.Forms.CheckBox();
             this.q0_checkBoxHelmet = new System.Windows.Forms.CheckBox();
             this.q0_backButton = new System.Windows.Forms.Button();
-            this.q0_grpBoxQuestion.SuspendLayout();
+            this.q0_groupBoxQuestionnaire.SuspendLayout();
             this.SuspendLayout();
             // 
             // q0_dialogue0
@@ -66,7 +65,7 @@
             // 
             this.q0_question.BackColor = System.Drawing.Color.Transparent;
             this.q0_question.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.q0_question.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q0_question.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.q0_question.Location = new System.Drawing.Point(6, 7);
             this.q0_question.Name = "q0_question";
             this.q0_question.Size = new System.Drawing.Size(349, 51);
@@ -100,53 +99,47 @@
             this.q0_answerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.q0_answerLabel.Visible = false;
             // 
-            // q0_grpBoxQuestion
+            // q0_groupBoxQuestionnaire
             // 
-            this.q0_grpBoxQuestion.BackColor = System.Drawing.Color.MistyRose;
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_labelScore);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_answerResponse);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_confirmAnswerButton);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxReflector);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxFood);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxWater);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxGlasses);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxBrakes);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxBackLight);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxFrontLight);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxRing);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxGloves);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_checkBoxHelmet);
-            this.q0_grpBoxQuestion.Controls.Add(this.q0_question);
-            this.q0_grpBoxQuestion.Location = new System.Drawing.Point(811, 12);
-            this.q0_grpBoxQuestion.Name = "q0_grpBoxQuestion";
-            this.q0_grpBoxQuestion.Size = new System.Drawing.Size(361, 203);
-            this.q0_grpBoxQuestion.TabIndex = 9;
-            this.q0_grpBoxQuestion.TabStop = false;
-            this.q0_grpBoxQuestion.Visible = false;
+            this.q0_groupBoxQuestionnaire.BackColor = System.Drawing.Color.MistyRose;
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_labelScore);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_confirmAnswerButton);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxReflector);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxFood);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxWater);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxGlasses);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxBrakes);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxBackLight);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxFrontLight);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxRing);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxGloves);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_checkBoxHelmet);
+            this.q0_groupBoxQuestionnaire.Controls.Add(this.q0_question);
+            this.q0_groupBoxQuestionnaire.Font = new System.Drawing.Font("Malgun Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q0_groupBoxQuestionnaire.Location = new System.Drawing.Point(811, 12);
+            this.q0_groupBoxQuestionnaire.Name = "q0_groupBoxQuestionnaire";
+            this.q0_groupBoxQuestionnaire.Size = new System.Drawing.Size(361, 203);
+            this.q0_groupBoxQuestionnaire.TabIndex = 9;
+            this.q0_groupBoxQuestionnaire.TabStop = false;
+            this.q0_groupBoxQuestionnaire.Visible = false;
             // 
             // q0_labelScore
             // 
             this.q0_labelScore.AutoSize = true;
             this.q0_labelScore.Location = new System.Drawing.Point(207, 184);
             this.q0_labelScore.Name = "q0_labelScore";
-            this.q0_labelScore.Size = new System.Drawing.Size(41, 13);
+            this.q0_labelScore.Size = new System.Drawing.Size(44, 15);
             this.q0_labelScore.TabIndex = 21;
             this.q0_labelScore.Text = "Score :";
             // 
-            // q0_answerResponse
-            // 
-            this.q0_answerResponse.Location = new System.Drawing.Point(83, 182);
-            this.q0_answerResponse.Name = "q0_answerResponse";
-            this.q0_answerResponse.Size = new System.Drawing.Size(120, 17);
-            this.q0_answerResponse.TabIndex = 20;
-            // 
             // q0_confirmAnswerButton
             // 
-            this.q0_confirmAnswerButton.Location = new System.Drawing.Point(8, 178);
+            this.q0_confirmAnswerButton.Location = new System.Drawing.Point(9, 176);
             this.q0_confirmAnswerButton.Name = "q0_confirmAnswerButton";
-            this.q0_confirmAnswerButton.Size = new System.Drawing.Size(75, 23);
+            this.q0_confirmAnswerButton.Size = new System.Drawing.Size(75, 24);
             this.q0_confirmAnswerButton.TabIndex = 19;
             this.q0_confirmAnswerButton.Text = "Confirmer";
+            this.q0_confirmAnswerButton.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.q0_confirmAnswerButton.UseVisualStyleBackColor = true;
             this.q0_confirmAnswerButton.Click += new System.EventHandler(this.q0_confirmAnswer_Click);
             // 
@@ -155,7 +148,7 @@
             this.q0_checkBoxReflector.AutoSize = true;
             this.q0_checkBoxReflector.Location = new System.Drawing.Point(210, 130);
             this.q0_checkBoxReflector.Name = "q0_checkBoxReflector";
-            this.q0_checkBoxReflector.Size = new System.Drawing.Size(97, 17);
+            this.q0_checkBoxReflector.Size = new System.Drawing.Size(105, 19);
             this.q0_checkBoxReflector.TabIndex = 17;
             this.q0_checkBoxReflector.Text = "Des réflécteurs";
             this.q0_checkBoxReflector.UseVisualStyleBackColor = true;
@@ -165,7 +158,7 @@
             this.q0_checkBoxFood.AutoSize = true;
             this.q0_checkBoxFood.Location = new System.Drawing.Point(210, 153);
             this.q0_checkBoxFood.Name = "q0_checkBoxFood";
-            this.q0_checkBoxFood.Size = new System.Drawing.Size(98, 17);
+            this.q0_checkBoxFood.Size = new System.Drawing.Size(111, 19);
             this.q0_checkBoxFood.TabIndex = 16;
             this.q0_checkBoxFood.Text = "De la nourriture";
             this.q0_checkBoxFood.UseVisualStyleBackColor = true;
@@ -175,7 +168,7 @@
             this.q0_checkBoxWater.AutoSize = true;
             this.q0_checkBoxWater.Location = new System.Drawing.Point(210, 107);
             this.q0_checkBoxWater.Name = "q0_checkBoxWater";
-            this.q0_checkBoxWater.Size = new System.Drawing.Size(65, 17);
+            this.q0_checkBoxWater.Size = new System.Drawing.Size(70, 19);
             this.q0_checkBoxWater.TabIndex = 13;
             this.q0_checkBoxWater.Text = "De l\'eau";
             this.q0_checkBoxWater.UseVisualStyleBackColor = true;
@@ -185,7 +178,7 @@
             this.q0_checkBoxGlasses.AutoSize = true;
             this.q0_checkBoxGlasses.Location = new System.Drawing.Point(210, 84);
             this.q0_checkBoxGlasses.Name = "q0_checkBoxGlasses";
-            this.q0_checkBoxGlasses.Size = new System.Drawing.Size(85, 17);
+            this.q0_checkBoxGlasses.Size = new System.Drawing.Size(92, 19);
             this.q0_checkBoxGlasses.TabIndex = 12;
             this.q0_checkBoxGlasses.Text = "Des lunettes";
             this.q0_checkBoxGlasses.UseVisualStyleBackColor = true;
@@ -195,7 +188,7 @@
             this.q0_checkBoxBrakes.AutoSize = true;
             this.q0_checkBoxBrakes.Location = new System.Drawing.Point(210, 61);
             this.q0_checkBoxBrakes.Name = "q0_checkBoxBrakes";
-            this.q0_checkBoxBrakes.Size = new System.Drawing.Size(76, 17);
+            this.q0_checkBoxBrakes.Size = new System.Drawing.Size(83, 19);
             this.q0_checkBoxBrakes.TabIndex = 11;
             this.q0_checkBoxBrakes.Text = "Des freins ";
             this.q0_checkBoxBrakes.UseVisualStyleBackColor = true;
@@ -205,7 +198,7 @@
             this.q0_checkBoxBackLight.AutoSize = true;
             this.q0_checkBoxBackLight.Location = new System.Drawing.Point(9, 153);
             this.q0_checkBoxBackLight.Name = "q0_checkBoxBackLight";
-            this.q0_checkBoxBackLight.Size = new System.Drawing.Size(139, 17);
+            this.q0_checkBoxBackLight.Size = new System.Drawing.Size(156, 19);
             this.q0_checkBoxBackLight.TabIndex = 10;
             this.q0_checkBoxBackLight.Text = "Une lampe arrière rouge";
             this.q0_checkBoxBackLight.UseVisualStyleBackColor = true;
@@ -215,7 +208,7 @@
             this.q0_checkBoxFrontLight.AutoSize = true;
             this.q0_checkBoxFrontLight.Location = new System.Drawing.Point(10, 130);
             this.q0_checkBoxFrontLight.Name = "q0_checkBoxFrontLight";
-            this.q0_checkBoxFrontLight.Size = new System.Drawing.Size(148, 17);
+            this.q0_checkBoxFrontLight.Size = new System.Drawing.Size(163, 19);
             this.q0_checkBoxFrontLight.TabIndex = 9;
             this.q0_checkBoxFrontLight.Text = "Une lampe avant blanche";
             this.q0_checkBoxFrontLight.UseVisualStyleBackColor = true;
@@ -225,7 +218,7 @@
             this.q0_checkBoxRing.AutoSize = true;
             this.q0_checkBoxRing.Location = new System.Drawing.Point(10, 107);
             this.q0_checkBoxRing.Name = "q0_checkBoxRing";
-            this.q0_checkBoxRing.Size = new System.Drawing.Size(90, 17);
+            this.q0_checkBoxRing.Size = new System.Drawing.Size(97, 19);
             this.q0_checkBoxRing.TabIndex = 8;
             this.q0_checkBoxRing.Text = "Une sonnette";
             this.q0_checkBoxRing.UseVisualStyleBackColor = true;
@@ -233,9 +226,9 @@
             // q0_checkBoxGloves
             // 
             this.q0_checkBoxGloves.AutoSize = true;
-            this.q0_checkBoxGloves.Location = new System.Drawing.Point(10, 84);
+            this.q0_checkBoxGloves.Location = new System.Drawing.Point(10, 82);
             this.q0_checkBoxGloves.Name = "q0_checkBoxGloves";
-            this.q0_checkBoxGloves.Size = new System.Drawing.Size(74, 17);
+            this.q0_checkBoxGloves.Size = new System.Drawing.Size(79, 19);
             this.q0_checkBoxGloves.TabIndex = 7;
             this.q0_checkBoxGloves.Text = "Des gants";
             this.q0_checkBoxGloves.UseVisualStyleBackColor = true;
@@ -245,7 +238,7 @@
             this.q0_checkBoxHelmet.AutoSize = true;
             this.q0_checkBoxHelmet.Location = new System.Drawing.Point(10, 61);
             this.q0_checkBoxHelmet.Name = "q0_checkBoxHelmet";
-            this.q0_checkBoxHelmet.Size = new System.Drawing.Size(78, 17);
+            this.q0_checkBoxHelmet.Size = new System.Drawing.Size(82, 19);
             this.q0_checkBoxHelmet.TabIndex = 6;
             this.q0_checkBoxHelmet.Text = "Un casque";
             this.q0_checkBoxHelmet.UseVisualStyleBackColor = true;
@@ -270,15 +263,15 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 641);
-            this.Controls.Add(this.q0_grpBoxQuestion);
+            this.Controls.Add(this.q0_groupBoxQuestionnaire);
             this.Controls.Add(this.q0_answerLabel);
             this.Controls.Add(this.q0_nextButton);
             this.Controls.Add(this.q0_backButton);
             this.Controls.Add(this.q0_dialogue0);
             this.Name = "Q0Form";
             this.Text = "Form1";
-            this.q0_grpBoxQuestion.ResumeLayout(false);
-            this.q0_grpBoxQuestion.PerformLayout();
+            this.q0_groupBoxQuestionnaire.ResumeLayout(false);
+            this.q0_groupBoxQuestionnaire.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -289,7 +282,7 @@
         private System.Windows.Forms.Label q0_question;
         private System.Windows.Forms.Button q0_nextButton;
         private System.Windows.Forms.Label q0_answerLabel;
-        private System.Windows.Forms.GroupBox q0_grpBoxQuestion;
+        private System.Windows.Forms.GroupBox q0_groupBoxQuestionnaire;
         private System.Windows.Forms.CheckBox q0_checkBoxWater;
         private System.Windows.Forms.CheckBox q0_checkBoxGlasses;
         private System.Windows.Forms.CheckBox q0_checkBoxBrakes;
@@ -301,7 +294,6 @@
         private System.Windows.Forms.CheckBox q0_checkBoxReflector;
         private System.Windows.Forms.CheckBox q0_checkBoxFood;
         private System.Windows.Forms.Button q0_confirmAnswerButton;
-        private System.Windows.Forms.Label q0_answerResponse;
         private System.Windows.Forms.Label q0_labelScore;
         private System.Windows.Forms.Button q0_backButton;
     }

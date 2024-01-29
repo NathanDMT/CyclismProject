@@ -1,5 +1,4 @@
-﻿using CyclismProject.Entity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,33 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CyclismProject.Services;
 
 namespace CyclismProject
 {
     public partial class Q0Form : Form
     {
-        public static int _q0Score = 0;
-        public static int _q1Score = _q0Score;
-        public static int _q2Score = _q1Score;
-        public static int _q3Score = _q2Score;
-        public static int _q4Score = _q3Score;
-        public static int _q5Score = _q4Score;
-
-
-        public static string GlobalVar
-        {
-            get { return _q0Score.ToString(); }
-            set { _q0Score = int.Parse(value); }
-        }
-
         public Q0Form()
         {
             InitializeComponent();
-            q0_labelScore.Text = "Score : " + _q0Score;
-            this.FormClosing += Form2_FormClosing;
+            q0_labelScore.Text = "Score : " + ScoreService.q0_score;
+            this.FormClosing += Form_FormClosing;
         }
 
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (e.CloseReason == CloseReason.UserClosing)
             {
@@ -44,10 +30,10 @@ namespace CyclismProject
 
         private async void nextButton_Click(object sender, EventArgs e)
         {
-            if (q0_grpBoxQuestion.Visible == false)
+            if (q0_groupBoxQuestionnaire.Visible == false)
             {
                 q0_nextButton.Visible = false;
-                q0_grpBoxQuestion.Visible = true;
+                q0_groupBoxQuestionnaire.Visible = true;
                 return;
 
             }
@@ -69,10 +55,11 @@ namespace CyclismProject
                 // Affichage de la réponse, du label post-réponse en couleur verte, ajout de 5 points au score, modification du label score, masque du bouton de validation et du bouton recommencer
                 q0_answerLabel.Visible = true;
 
-                q0_answerResponse.Text = "Bonne réponse!";
-                q0_answerResponse.ForeColor = Color.Green;
-                _q0Score = _q0Score + 5;
-                q0_labelScore.Text = "Score : " + _q0Score;
+                q0_groupBoxQuestionnaire.Text = "Bonne réponse!";
+                q0_groupBoxQuestionnaire.ForeColor = Color.Green;
+                q0_groupBoxQuestionnaire.Font = new Font();
+                ScoreService.q0_score =+ 5;
+                q0_labelScore.Text = "Score : " + ScoreService.q0_score;
 
                 q0_nextButton.Visible = true;
                 q0_nextButton.Enabled = false;
@@ -83,19 +70,18 @@ namespace CyclismProject
 
                 q0_confirmAnswerButton.Visible = false;
                 q0_nextButton.Enabled = true;
-                return;
             }
             else
             {
-                q0_answerResponse.Text = "Mauvaise réponse!";
-                q0_answerResponse.ForeColor = Color.Red;
+                q0_groupBoxQuestionnaire.Text = "Mauvaise réponse!";
+                q0_groupBoxQuestionnaire.ForeColor = Color.Red;
                 
-                if (_q0Score == 0)
+                if (ScoreService.q0_score == 0)
                 {}
                 else
                 {
-                    _q0Score = _q0Score - 1;
-                    q0_labelScore.Text = "Score : " + _q0Score;
+                    ScoreService.q0_score =- 1;
+                    q0_labelScore.Text = "Score : " + ScoreService.q0_score;
                 }
             }
         }

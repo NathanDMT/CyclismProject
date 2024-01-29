@@ -52,8 +52,6 @@
     <Compile Include="EndForm.Designer.cs">
       <DependentUpon>EndForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Entity\GlobalVariables.cs" />
-    <Compile Include="Manager\GlobalVariablesManager.cs" />
     <Compile Include="Q1Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +95,7 @@
     <Compile Include="Q5.Designer.cs">
       <DependentUpon>Q5Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Services\ScoreService.cs" />
     <Compile Include="StartForm.cs">
       <SubType>Form</SubType>
     </Compile>

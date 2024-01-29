@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace CyclismProject
 {
-    public partial class Q3Form : Q2Form
+    public partial class Q3Form : Form
     {
         public Q3Form()
         {
@@ -26,7 +26,17 @@ namespace CyclismProject
             }
         }
 
+        private void q3_backButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void q3_nextButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void q3_buttonConfirmAnswer_Click(object sender, EventArgs e)
         {
 
         }

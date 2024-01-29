@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace CyclismProject
 {
-    public partial class Q4Form : Q3Form
+    public partial class Q4Form : Form
     {
         public Q4Form()
         {

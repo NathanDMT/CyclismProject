@@ -32,29 +32,29 @@
             this.q1_question = new System.Windows.Forms.Label();
             this.q1_signEnter = new System.Windows.Forms.PictureBox();
             this.q1_backButton = new System.Windows.Forms.Button();
-            this.q1_answer1 = new System.Windows.Forms.Label();
+            this.q1_answerLabel = new System.Windows.Forms.Label();
             this.q1_nextButton = new System.Windows.Forms.Button();
             this.q1_signLeave = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.q1_groupBoxQuestionnaire = new System.Windows.Forms.GroupBox();
+            this.q1_confirmAnswerButton = new System.Windows.Forms.Button();
             this.q1_labelScore = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.q0_answerResponse = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxAutoRoad = new System.Windows.Forms.CheckBox();
+            this.checkBoxGreenTrack = new System.Windows.Forms.CheckBox();
+            this.checkBoxCycleArea = new System.Windows.Forms.CheckBox();
+            this.checkBoxCycleTrack = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.q1_signEnter)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.q1_signLeave)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.q1_groupBoxQuestionnaire.SuspendLayout();
             this.SuspendLayout();
             // 
             // q1_question
             // 
             this.q1_question.BackColor = System.Drawing.Color.Transparent;
-            this.q1_question.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q1_question.Font = new System.Drawing.Font("Malgun Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.q1_question.Location = new System.Drawing.Point(6, 8);
             this.q1_question.Name = "q1_question";
-            this.q1_question.Size = new System.Drawing.Size(288, 52);
+            this.q1_question.Size = new System.Drawing.Size(396, 52);
             this.q1_question.TabIndex = 0;
             this.q1_question.Text = "J\'arrive proche d\'un bois, je croise ce panneau, a quoi correspond-t-il?";
             // 
@@ -62,9 +62,9 @@
             // 
             this.q1_signEnter.BackColor = System.Drawing.Color.Transparent;
             this.q1_signEnter.Image = ((System.Drawing.Image)(resources.GetObject("q1_signEnter.Image")));
-            this.q1_signEnter.Location = new System.Drawing.Point(300, 0);
+            this.q1_signEnter.Location = new System.Drawing.Point(419, 0);
             this.q1_signEnter.Name = "q1_signEnter";
-            this.q1_signEnter.Size = new System.Drawing.Size(97, 127);
+            this.q1_signEnter.Size = new System.Drawing.Size(97, 135);
             this.q1_signEnter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.q1_signEnter.TabIndex = 2;
             this.q1_signEnter.TabStop = false;
@@ -80,21 +80,21 @@
             this.q1_backButton.TabIndex = 3;
             this.q1_backButton.Text = "Question précedente";
             this.q1_backButton.UseVisualStyleBackColor = false;
-            this.q1_backButton.Click += new System.EventHandler(this.backButton_Click);
+            this.q1_backButton.Click += new System.EventHandler(this.q1_backButton_Click);
             // 
-            // q1_answer1
+            // q1_answerLabel
             // 
-            this.q1_answer1.BackColor = System.Drawing.Color.Brown;
-            this.q1_answer1.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q1_answer1.ForeColor = System.Drawing.Color.White;
-            this.q1_answer1.Location = new System.Drawing.Point(775, 146);
-            this.q1_answer1.Name = "q1_answer1";
-            this.q1_answer1.Size = new System.Drawing.Size(300, 98);
-            this.q1_answer1.TabIndex = 5;
-            this.q1_answer1.Text = "Ce panneau signifie que je peux emprunter une voie verte, a la fin j\'y trouverais" +
+            this.q1_answerLabel.BackColor = System.Drawing.Color.Brown;
+            this.q1_answerLabel.Font = new System.Drawing.Font("HoloLens MDL2 Assets", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q1_answerLabel.ForeColor = System.Drawing.Color.White;
+            this.q1_answerLabel.Location = new System.Drawing.Point(656, 146);
+            this.q1_answerLabel.Name = "q1_answerLabel";
+            this.q1_answerLabel.Size = new System.Drawing.Size(419, 98);
+            this.q1_answerLabel.TabIndex = 5;
+            this.q1_answerLabel.Text = "Ce panneau signifie que je peux emprunter une voie verte, a la fin j\'y trouverais" +
     " ce panneau";
-            this.q1_answer1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.q1_answer1.Visible = false;
+            this.q1_answerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.q1_answerLabel.Visible = false;
             // 
             // q1_nextButton
             // 
@@ -122,41 +122,43 @@
             this.q1_signLeave.TabStop = false;
             this.q1_signLeave.Visible = false;
             // 
-            // groupBox1
+            // q1_groupBoxQuestionnaire
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.MistyRose;
-            this.groupBox1.Controls.Add(this.q1_labelScore);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.q0_answerResponse);
-            this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.q1_question);
-            this.groupBox1.Controls.Add(this.q1_signEnter);
-            this.groupBox1.Location = new System.Drawing.Point(775, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(397, 135);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
+            this.q1_groupBoxQuestionnaire.BackColor = System.Drawing.Color.MistyRose;
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.q1_confirmAnswerButton);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.q1_labelScore);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.q0_answerResponse);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.checkBoxAutoRoad);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.checkBoxGreenTrack);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.checkBoxCycleArea);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.checkBoxCycleTrack);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.q1_question);
+            this.q1_groupBoxQuestionnaire.Controls.Add(this.q1_signEnter);
+            this.q1_groupBoxQuestionnaire.Font = new System.Drawing.Font("Malgun Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q1_groupBoxQuestionnaire.Location = new System.Drawing.Point(656, 12);
+            this.q1_groupBoxQuestionnaire.Name = "q1_groupBoxQuestionnaire";
+            this.q1_groupBoxQuestionnaire.Size = new System.Drawing.Size(516, 135);
+            this.q1_groupBoxQuestionnaire.TabIndex = 11;
+            this.q1_groupBoxQuestionnaire.TabStop = false;
+            // 
+            // q1_confirmAnswerButton
+            // 
+            this.q1_confirmAnswerButton.Location = new System.Drawing.Point(10, 106);
+            this.q1_confirmAnswerButton.Name = "q1_confirmAnswerButton";
+            this.q1_confirmAnswerButton.Size = new System.Drawing.Size(75, 23);
+            this.q1_confirmAnswerButton.TabIndex = 24;
+            this.q1_confirmAnswerButton.Text = "Confirmer";
+            this.q1_confirmAnswerButton.UseVisualStyleBackColor = true;
+            this.q1_confirmAnswerButton.Click += new System.EventHandler(this.q1_confirmAnswerButton_Click);
             // 
             // q1_labelScore
             // 
             this.q1_labelScore.AutoSize = true;
-            this.q1_labelScore.Location = new System.Drawing.Point(214, 116);
+            this.q1_labelScore.Location = new System.Drawing.Point(361, 114);
             this.q1_labelScore.Name = "q1_labelScore";
             this.q1_labelScore.Size = new System.Drawing.Size(41, 13);
             this.q1_labelScore.TabIndex = 23;
             this.q1_labelScore.Text = "Score :";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(9, 109);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Confirmer";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // q0_answerResponse
             // 
@@ -165,45 +167,49 @@
             this.q0_answerResponse.Size = new System.Drawing.Size(120, 17);
             this.q0_answerResponse.TabIndex = 22;
             // 
-            // checkBox4
+            // checkBoxAutoRoad
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(136, 86);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(127, 17);
-            this.checkBox4.TabIndex = 6;
-            this.checkBox4.Text = "Une route automobile";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBoxAutoRoad.AutoSize = true;
+            this.checkBoxAutoRoad.Location = new System.Drawing.Point(227, 86);
+            this.checkBoxAutoRoad.Name = "checkBoxAutoRoad";
+            this.checkBoxAutoRoad.Size = new System.Drawing.Size(183, 17);
+            this.checkBoxAutoRoad.TabIndex = 6;
+            this.checkBoxAutoRoad.Text = "Début d\'une route automobile";
+            this.checkBoxAutoRoad.UseVisualStyleBackColor = true;
+            this.checkBoxAutoRoad.CheckedChanged += new System.EventHandler(this.checkBoxAutoRoad_CheckedChanged);
             // 
-            // checkBox3
+            // checkBoxGreenTrack
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(136, 63);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(98, 17);
-            this.checkBox3.TabIndex = 5;
-            this.checkBox3.Text = "Une piste verte";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBoxGreenTrack.AutoSize = true;
+            this.checkBoxGreenTrack.Location = new System.Drawing.Point(227, 63);
+            this.checkBoxGreenTrack.Name = "checkBoxGreenTrack";
+            this.checkBoxGreenTrack.Size = new System.Drawing.Size(132, 17);
+            this.checkBoxGreenTrack.TabIndex = 5;
+            this.checkBoxGreenTrack.Text = "Début de piste verte";
+            this.checkBoxGreenTrack.UseVisualStyleBackColor = true;
+            this.checkBoxGreenTrack.CheckedChanged += new System.EventHandler(this.checkBoxGreenTrack_CheckedChanged);
             // 
-            // checkBox2
+            // checkBoxCycleArea
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(10, 86);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(114, 17);
-            this.checkBox2.TabIndex = 4;
-            this.checkBox2.Text = "Une zone cyclable";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBoxCycleArea.AutoSize = true;
+            this.checkBoxCycleArea.Location = new System.Drawing.Point(10, 86);
+            this.checkBoxCycleArea.Name = "checkBoxCycleArea";
+            this.checkBoxCycleArea.Size = new System.Drawing.Size(214, 17);
+            this.checkBoxCycleArea.TabIndex = 4;
+            this.checkBoxCycleArea.Text = "Début de zone réservée aux cyclistes";
+            this.checkBoxCycleArea.UseVisualStyleBackColor = true;
+            this.checkBoxCycleArea.CheckedChanged += new System.EventHandler(this.checkBoxCycleArea_CheckedChanged);
             // 
-            // checkBox1
+            // checkBoxCycleTrack
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(10, 63);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(113, 17);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Une piste cyclable";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxCycleTrack.AutoSize = true;
+            this.checkBoxCycleTrack.Location = new System.Drawing.Point(10, 63);
+            this.checkBoxCycleTrack.Name = "checkBoxCycleTrack";
+            this.checkBoxCycleTrack.Size = new System.Drawing.Size(130, 17);
+            this.checkBoxCycleTrack.TabIndex = 3;
+            this.checkBoxCycleTrack.Text = "Début piste cyclable";
+            this.checkBoxCycleTrack.UseVisualStyleBackColor = true;
+            this.checkBoxCycleTrack.CheckedChanged += new System.EventHandler(this.checkBoxCycleTrack_CheckedChanged);
             // 
             // Q1Form
             // 
@@ -212,17 +218,17 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1184, 641);
-            this.Controls.Add(this.q1_answer1);
+            this.Controls.Add(this.q1_answerLabel);
             this.Controls.Add(this.q1_signLeave);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.q1_groupBoxQuestionnaire);
             this.Controls.Add(this.q1_nextButton);
             this.Controls.Add(this.q1_backButton);
             this.Name = "Q1Form";
             this.Text = "Q1";
             ((System.ComponentModel.ISupportInitialize)(this.q1_signEnter)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.q1_signLeave)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.q1_groupBoxQuestionnaire.ResumeLayout(false);
+            this.q1_groupBoxQuestionnaire.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -232,16 +238,16 @@
         private System.Windows.Forms.Label q1_question;
         private System.Windows.Forms.PictureBox q1_signEnter;
         private System.Windows.Forms.Button q1_backButton;
-        private System.Windows.Forms.Label q1_answer1;
+        private System.Windows.Forms.Label q1_answerLabel;
         private System.Windows.Forms.Button q1_nextButton;
         private System.Windows.Forms.PictureBox q1_signLeave;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox q1_groupBoxQuestionnaire;
+        private System.Windows.Forms.CheckBox checkBoxAutoRoad;
+        private System.Windows.Forms.CheckBox checkBoxGreenTrack;
+        private System.Windows.Forms.CheckBox checkBoxCycleArea;
+        private System.Windows.Forms.CheckBox checkBoxCycleTrack;
         private System.Windows.Forms.Label q1_labelScore;
         private System.Windows.Forms.Label q0_answerResponse;
+        private System.Windows.Forms.Button q1_confirmAnswerButton;
     }
 }

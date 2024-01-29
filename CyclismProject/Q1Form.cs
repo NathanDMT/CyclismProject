@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CyclismProject.Services;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,23 +11,17 @@ using System.Windows.Forms;
 
 namespace CyclismProject
 {
-    public partial class Q1Form : Q0Form
+    public partial class Q1Form : Form
     {
-        public static new string GlobalVar
-        {
-            get { return _q1Score.ToString(); }
-            set { _q1Score = int.Parse(value); }
-        }
-
         public Q1Form()
         {
             InitializeComponent();
-            _q1Score = _q0Score;
-            q1_labelScore.Text = "Score : " + _q1Score;
-            this.FormClosing += Form2_FormClosing;
+            ScoreService.q1_score =+ ScoreService.q0_score;
+            q1_labelScore.Text = "Score : " + ScoreService.q1_score;
+            this.FormClosing += Form_FormClosing;
         }
 
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        private void Form_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (e.CloseReason == CloseReason.UserClosing)
             {
@@ -34,26 +29,103 @@ namespace CyclismProject
             }
         }
 
-        private void backButton_Click(object sender, EventArgs e)
+        private void q1_backButton_Click(object sender, EventArgs e)
         {
 
         }
 
+        private async void q1_confirmAnswerButton_Click(object sender, EventArgs e)
+        {
+            if (checkBoxGreenTrack.Checked == true)
+            {
+                q1_answerLabel.Visible = true;
+                q1_signLeave.Visible = true;
+
+                q1_groupBoxQuestionnaire.Text = "Bonne réponse!";
+                q1_groupBoxQuestionnaire.ForeColor = Color.Green;
+                ScoreService.q1_score = ScoreService.q0_score + 5;
+                q1_labelScore.Text = "Score : " + ScoreService.q1_score;
+
+                q1_nextButton.Visible = true;
+                q1_nextButton.Enabled = false;
+                q1_backButton.Enabled = false;
+                q1_confirmAnswerButton.Visible = false;
+
+                await Task.Delay(10000);
+
+                q1_confirmAnswerButton.Visible = false;
+                q1_nextButton.Enabled = true;
+            }
+            else
+            {
+                q1_groupBoxQuestionnaire.Text = "Mauvaise réponse!";
+                q1_groupBoxQuestionnaire.ForeColor = Color.Red;
+
+                if (ScoreService.q1_score == 0)
+                { }
+                else
+                {
+                    ScoreService.q1_score--;
+                    q1_labelScore.Text = "Score : " + ScoreService.q1_score;
+                }
+            }
+        }
+
         private async void q1_nextButton_Click(object sender, EventArgs e)
         {
-            if (q1_answer1.Visible == false)
+            if (q1_answerLabel.Visible == false)
             {
-                q1_answer1.Visible = true;
+                q1_answerLabel.Visible = true;
                 return;
             }
 
-            if ((q1_answer1.Visible == true) && (q1_signLeave.Visible == true))
+            if ((q1_answerLabel.Visible == true) && (q1_signLeave.Visible == true))
             {
                 Q2Form Q2Form = new Q2Form();
                 this.Hide();
                 Q2Form.StartPosition = FormStartPosition.Manual;
                 Q2Form.Location = new Point(10, 10);
                 Q2Form.Show();
+            }
+        }
+
+        private void checkBoxCycleTrack_CheckedChanged(object sender, EventArgs e)
+        {
+            if(checkBoxCycleTrack.Checked == true)
+            {
+                checkBoxCycleArea.Checked = false;
+                checkBoxGreenTrack.Checked = false;
+                checkBoxAutoRoad.Checked = false;
+            }
+        }
+
+        private void checkBoxCycleArea_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxCycleArea.Checked == true)
+            {
+                checkBoxCycleTrack.Checked = false;
+                checkBoxGreenTrack.Checked = false;
+                checkBoxAutoRoad.Checked = false;
+            }
+        }
+
+        private void checkBoxGreenTrack_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxGreenTrack.Checked == true)
+            {
+                checkBoxCycleArea.Checked = false;
+                checkBoxCycleTrack.Checked = false;
+                checkBoxAutoRoad.Checked = false;
+            }
+        }
+
+        private void checkBoxAutoRoad_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBoxAutoRoad.Checked == true)
+            {
+                checkBoxCycleArea.Checked = false;
+                checkBoxGreenTrack.Checked = false;
+                checkBoxCycleTrack.Checked = false;
             }
         }
     }
