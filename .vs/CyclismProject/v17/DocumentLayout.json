@@ -1,0 +1,802 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Stage\\CyclismProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q3form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q3form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q2form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q2form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q1form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q0Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q6Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|d:\\stage\\cyclismproject\\cyclismproject\\q5form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q5form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q4Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\startform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q1Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\StartForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\EndForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\StartForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q0Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q3Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q5Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q4Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q6Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q1Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q4form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q4form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q0Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q3form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q3form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q1form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q1form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q0form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q0form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q2form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q2form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q4.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q4.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\EndForm.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\endform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\endform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q2Form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CyclismProject||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Stage\\CyclismProject\\cyclismproject\\q2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cyclismproject\\q2.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD2EE367-C090-4098-B91E-038B1B050003}|Solution Items{DD2EE367-C090-4098-B91E-038B1B050003}|D:\\Stage\\CyclismProject\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{DD2EE367-C090-4098-B91E-038B1B050003}|Solution Items{DD2EE367-C090-4098-B91E-038B1B050003}|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Services\\ScoreService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Services\\ScoreService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Services\\AnswerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Services\\AnswerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Services\\OtherService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Services\\OtherService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q3.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q3.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q6Form.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Properties\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q5.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q5.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\q5form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\q5form.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Settings.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Properties\\Settings.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Properties\\Resources.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\cyclismproject\\startform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:cyclismproject\\startform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|D:\\Stage\\CyclismProject\\CyclismProject\\Q2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F123409-9EB2-4486-970D-55AD96EE0672}|CyclismProject\\CyclismProject.csproj|solutionrelative:CyclismProject\\Q2.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StartForm.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\StartForm.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\StartForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Q0Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q0Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q0Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.73Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Q1Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q1Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q1Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.735Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Q1Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q1Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q1Form.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EndForm.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\EndForm.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\EndForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.734Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Q6Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q6Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q6Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.75Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Q5Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q5Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q5Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Q4Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q4Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q4Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.752Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Q3Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q3Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q3Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.736Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Q2Form.cs [Design]",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q2Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.cs [Design]",
+              "RelativeToolTip": "CyclismProject\\Q2Form.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.738Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StartForm.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\StartForm.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\StartForm.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Q0Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q0Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q0Form.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StartForm.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\StartForm.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.cs",
+              "RelativeToolTip": "CyclismProject\\StartForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EndForm.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\EndForm.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.cs",
+              "RelativeToolTip": "CyclismProject\\EndForm.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwD4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Q3Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q3Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q3Form.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA1wDsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Q4Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q4Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q4Form.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Q5Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q5Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q5Form.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwBQAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Q6Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q6Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q6Form.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwA8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Q1Form.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q1Form.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q1Form.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Program.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Program.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Program.cs",
+              "RelativeToolTip": "CyclismProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Q4Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q4Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q4Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-22T14:56:41.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Q0Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q0Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q0Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Q0Form.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q0Form.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q0Form.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q0Form.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Q2.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q2.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q2.Designer.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAiwE4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Q3Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q3Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q3Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Q1Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q1Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q1Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q1Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Q2Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q2Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q2Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Q4.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q4.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q4.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q4.Designer.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EndForm.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\EndForm.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\EndForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Q2Form.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q2Form.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2Form.cs",
+              "RelativeToolTip": "CyclismProject\\Q2Form.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AnswerService.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\AnswerService.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Services\\AnswerService.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\AnswerService.cs",
+              "RelativeToolTip": "CyclismProject\\Services\\AnswerService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ScoreService.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\ScoreService.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Services\\ScoreService.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\ScoreService.cs",
+              "RelativeToolTip": "CyclismProject\\Services\\ScoreService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OtherService.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\OtherService.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Services\\OtherService.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Services\\OtherService.cs",
+              "RelativeToolTip": "CyclismProject\\Services\\OtherService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Q3.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q3.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q3.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q3.Designer.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAAAOEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Q6Form.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q6Form.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q6Form.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q6Form.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\App.config",
+              "RelativeDocumentMoniker": "CyclismProject\\App.config",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\App.config",
+              "RelativeToolTip": "CyclismProject\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-16T07:45:13.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CyclismProject\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CyclismProject",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\CyclismProject.csproj",
+              "RelativeDocumentMoniker": "CyclismProject\\CyclismProject.csproj",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\CyclismProject.csproj",
+              "RelativeToolTip": "CyclismProject\\CyclismProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-01-31T10:27:12.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Q5.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Q5.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Q5.Designer.cs",
+              "ViewState": "AQIAAM4AAAAAAAAAAAAiwOAAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Q5Form.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q5Form.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q5Form.resx",
+              "RelativeToolTip": "CyclismProject\\Q5Form.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Properties\\Settings.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Properties\\Settings.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "CyclismProject\\Properties\\Resources.Designer.cs",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "CyclismProject\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:45:13.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "D:\\Stage\\CyclismProject\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-16T07:45:13.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Properties\\Resources.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Resources.resx",
+              "RelativeToolTip": "CyclismProject\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "CyclismProject\\Properties\\Settings.settings",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Properties\\Settings.settings",
+              "RelativeToolTip": "CyclismProject\\Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-02-16T07:45:13.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StartForm.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\StartForm.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\StartForm.resx",
+              "RelativeToolTip": "CyclismProject\\StartForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Q2.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\Q2.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\Q2.resx",
+              "RelativeToolTip": "CyclismProject\\Q2.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-01-24T09:05:58.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EndForm.resx",
+              "DocumentMoniker": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.resx",
+              "RelativeDocumentMoniker": "CyclismProject\\EndForm.resx",
+              "ToolTip": "D:\\Stage\\CyclismProject\\CyclismProject\\EndForm.resx",
+              "RelativeToolTip": "CyclismProject\\EndForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-16T07:45:13.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
